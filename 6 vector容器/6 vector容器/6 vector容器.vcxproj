@@ -128,6 +128,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="P186_STL初识-vector存放内置数据类型.cpp" />
+    <ClCompile Include="P187_STL初识-vector存放自定义数据类型.cpp" />
+    <ClCompile Include="P188_STL初识-容器嵌套容器.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

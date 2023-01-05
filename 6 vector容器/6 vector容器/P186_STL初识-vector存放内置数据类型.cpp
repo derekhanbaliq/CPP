@@ -65,7 +65,7 @@ void test18603()
 	for_each(v.begin(), v.end(), myPrint);
 }
 
-int main()
+int main186()
 {
 	//test18601();
 	//test18602();

@@ -18,5 +18,11 @@
     <ClCompile Include="P186_STL初识-vector存放内置数据类型.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="P187_STL初识-vector存放自定义数据类型.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="P188_STL初识-容器嵌套容器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
