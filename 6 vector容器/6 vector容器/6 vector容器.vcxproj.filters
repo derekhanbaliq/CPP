@@ -24,5 +24,8 @@
     <ClCompile Include="P188_STL初识-容器嵌套容器.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="P189_string容器-构造函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
