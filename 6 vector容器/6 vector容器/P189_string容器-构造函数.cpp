@@ -19,7 +19,7 @@ void test18901()
 	cout << "s4 = " << s4 << endl;
 }
 
-int main(void)
+int main189(void)
 {
 	test18901();
 
