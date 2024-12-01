@@ -12,16 +12,16 @@ public:
 	Person110(int age, int height)
 	{
 		m_Age = age;
-		m_Height = new int(height); //用指针接收堆区数据
+		m_Height = new int(height);  //用指针接收堆区数据
 		cout << "有参构造" << endl;
 	}
 
 	//自己实现拷贝构造函数 解决浅拷贝带来的问题
-	Person110(const Person110& p) //形参/实参p本身不能修改掉 常量引用！
+	Person110(const Person110& p)  //形参/实参p本身不能修改掉 常量引用！
 	{
 		cout << "拷贝构造" << endl;
 		m_Age = p.m_Age;
-		//m_Height = p.m_Height;编译器默认实现的就是这行代码
+		//m_Height = p.m_Height; 编译器默认实现的就是这行代码
 		
 		//深拷贝操作
 		m_Height = new int(*p.m_Height);

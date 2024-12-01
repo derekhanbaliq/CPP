@@ -39,17 +39,17 @@ public:
 
 void test10901()
 {
-	Person109 p; //默认构造
+	Person109 p;  //默认构造
 	p.m_Age = 18;
 
-	Person109 p2(p); //拷贝构造
+	Person109 p2(p);  //拷贝构造
 	cout << "p2的年龄为" << p2.m_Age << endl;
 }
 
 void test10902()
 {
-	Person109 p; //默认构造
-	Person109 p1(100); //拷贝构造
+	Person109 p;  //默认构造
+	Person109 p1(100);  //拷贝构造
 
 	cout << "p2年龄为" << p1.m_Age << endl;
 }
