@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="099 属性和行为作为整体 .cpp" />
+    <ClCompile Include="099 属性和行为作为整体.cpp" />
     <ClCompile Include="100 案例 设计学生类.cpp" />
     <ClCompile Include="101 访问权限.cpp" />
     <ClCompile Include="102 class和struct的区别.cpp" />

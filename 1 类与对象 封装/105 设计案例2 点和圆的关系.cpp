@@ -80,13 +80,15 @@ void isInCircle(Circle& c, Point& p)
 	}
 }
 
-int main()
+int main105()
 {
 	Circle c;
 	c.setR(10);
-	Point center;
+	
+    Point center;
 	center.setX(10);
 	center.setY(0);
+
 	c.setCenter(center);
 
 	Point p;

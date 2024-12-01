@@ -20,8 +20,6 @@ int main102()
 	C2 c2;
 	c2.m_A = 100;
 	
-	
-	
 	return 0;
 }
 

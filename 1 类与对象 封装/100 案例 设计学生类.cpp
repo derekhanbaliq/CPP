@@ -13,7 +13,7 @@ public:
 	string m_Name;
 	int m_Id;
 
-	//行为 - 成员方法 成员方法
+	//行为 - 成员方法 成员函数
 	void showStudent()
 	{
 		cout << "姓名：" << m_Name << " 学号：" << m_Id << endl;

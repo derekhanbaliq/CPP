@@ -55,7 +55,8 @@ int main103()
 	p.setAge(1000);
 	cout << "年龄为：" << p.getAge() << endl;
 
-	p.setLover("仓井");
+	p.setLover("苍井");
+    //cout << "情人： " << p.m_Lover << endl;  //只写属性，不可以读取
 
 	return 0;
 }

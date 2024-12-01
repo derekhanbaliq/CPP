@@ -32,7 +32,7 @@ public:
 		return m_H;
 	}
 
-	//获取面积 体积
+	//计算面积 & 体积
 	int calculateS()
 	{
 		return 2 * m_L * m_W + 2 * m_L * m_H + 2 * m_W * m_H;

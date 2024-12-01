@@ -14,7 +14,7 @@ private: //私有权限
 	int m_Password;
 
 public:
-	void func()
+    void func()
 	{
 		m_Name = "张三";
 		m_Car = "拖拉机";
@@ -27,8 +27,8 @@ int main101(void)
 	Person p1;
 	
 	p1.m_Name = "李四";
-	//p1.m_Car = "奔驰";
-	//p1.m_Password = 123;
+	//p1.m_Car = "奔驰";  //保护权限类外访问不到
+	//p1.m_Password = 123;  //保护权限类外访问不到
 
 	return 0;
 }
